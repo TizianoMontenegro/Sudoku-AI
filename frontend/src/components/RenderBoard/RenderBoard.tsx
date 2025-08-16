@@ -1,5 +1,4 @@
 import { SudokuBoard } from "../SudokuBoard/SudokuBoard"
-import './RenderBoard.css';
 
 interface RenderBoardProps {
     loading: boolean;
@@ -8,7 +7,7 @@ interface RenderBoardProps {
 
 export const RenderBoard = ({loading, puzzle}: RenderBoardProps) => {
     if (loading) {
-        return <div className="loading">Generating puzzle...</div>
+        return <div className="text-third-green text-[.8lh] mt-4">Generating puzzle...</div>
     }
 
     if (puzzle) {

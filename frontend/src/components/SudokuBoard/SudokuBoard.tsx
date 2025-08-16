@@ -63,12 +63,13 @@ export const SudokuBoard = ({ initialBoard }: SudokuBoardProps) => {
           </div>
         ))}
       </div>
+      
       <button
         onClick={handleSolve}
         disabled={isSolving}
-        className="solve-button"
+        className="solve-button new-game-btn standard-button"
       >
-        {isSolving ? 'Solving...' : 'Solve Sudoku'}
+        {isSolving ? 'Solving...' : 'SOLVE SUDOKU'}
       </button>
     </div>
   );

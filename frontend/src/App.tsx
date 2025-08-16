@@ -7,11 +7,15 @@ const App = () => {
 
   return (
     <>
-      <h1>Sudoku Game</h1>
+      <h1 className='text-center text-[2.4lh] font-extrabold mt-12'>Sudoku Online</h1>
 
-      <Controls passHandleNewPuzzle={handleNewPuzzle} />
+      <article className='flex flex-col items-center my-10'>
 
-      <RenderBoard loading={loading} puzzle={puzzle} />
+        <Controls passHandleNewPuzzle={handleNewPuzzle} />
+      
+        <RenderBoard loading={loading} puzzle={puzzle} />
+
+      </article>
     </>
   );
 };

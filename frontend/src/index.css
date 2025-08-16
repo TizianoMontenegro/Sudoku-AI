@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+    --color-first-green: #A1C349;
+    --color-second-green: #87A330;
+    --color-third-green: #CAD593;
+    --color-forth-green: #F5EE9E;
+    --color-fifth-green: #2A3C24;
+    --color-sixth-green: #243010;
+}
+
+.standard-button {
+    @apply whitespace-nowrap w-full rounded-none bg-sixth-green py-2 px-4 text-forth-green font-extrabold text-[1lh] hover:text-sixth-green hover:bg-forth-green transition-colors duration-75 disabled:bg-gray-400;
+}
+
+* {
+    box-sizing: border-box;
+}
