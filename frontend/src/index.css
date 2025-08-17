@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
 @theme {
+    --breakpoint-smm-550: 550px;
+    --spacing-small-width: 367px;
+
+    --breakpoint-smm-372: 372px;
+    --spacing-extra-small-width: 277px;
+
+    
     --color-first-green: #A1C349;
     --color-second-green: #87A330;
     --color-third-green: #CAD593;
@@ -10,7 +17,7 @@
 }
 
 .standard-button {
-    @apply whitespace-nowrap w-full rounded-none bg-sixth-green py-2 px-4 text-forth-green font-extrabold text-[1lh] hover:text-sixth-green hover:bg-forth-green transition-colors duration-75 disabled:bg-gray-400;
+    @apply whitespace-nowrap w-full rounded-none bg-sixth-green py-2 px-4 text-forth-green font-extrabold text-[1lh] hover:text-sixth-green hover:bg-forth-green transition-colors duration-75 disabled:bg-gray-400 not-smm-372:text-[.7lh];
 }
 
 * {

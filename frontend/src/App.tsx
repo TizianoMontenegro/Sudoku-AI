@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <>
-      <h1 className='text-center text-[2.4lh] font-extrabold mt-12'>Sudoku Online</h1>
+      <h1 className='text-center text-[2.4lh] font-extrabold mt-12 not-smm-550:text-[2lh] not-smm-550:not-smm-372:text-[1.5lh]'>Sudoku Online</h1>
 
       <article className='flex flex-col items-center my-10'>
 

@@ -60,3 +60,25 @@
     /* background-color: var(--color-forth-green); */
     background-color: var(--color-second-green);
 }
+
+
+@media (max-width: 550px) {
+    .sudoku-cell {
+        width: 40px;
+        height: 40px;
+        font-size: 2lh;
+    }
+
+    .sudoku-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 372px) {
+    .sudoku-cell {
+        width: 30px;
+        height: 30px;
+        font-size: 1.6lh;
+    }
+}

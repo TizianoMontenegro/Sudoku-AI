@@ -13,8 +13,8 @@ export const Controls = ({ passHandleNewPuzzle }: ControlsProps) => {
     }
 
     return (
-      <article className="my-1.5 flex flex-col gap-1 items-center justify-center max-w-[502px] w-full">
-        <label className="self-start font-bold ml-4 text-third-green">Difficulty</label>
+      <article className="my-1.5 flex flex-col gap-1 items-center justify-center max-w-[502px] w-full not-smm-550:max-w-small-width not-smm-550:not-smm-372:max-w-extra-small-width">
+        <label className="self-start font-bold ml-4 text-third-green not-smm-372:text-[.6lh]">Difficulty</label>
         <div className="select">
           <select
             value={difficulty}
@@ -29,7 +29,7 @@ export const Controls = ({ passHandleNewPuzzle }: ControlsProps) => {
           </div>
         </div>
 
-        <button onClick={handleNewPuzzle} className="new-game-btn whitespace-nowrap w-full rounded-none bg-sixth-green py-2 px-4 text-forth-green font-extrabold text-[1lh] hover:text-sixth-green hover:bg-forth-green transition-colors duration-75">
+        <button onClick={handleNewPuzzle} className="standard-button">
           NEW PUZZLE
         </button>
       </article>
